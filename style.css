@@ -485,7 +485,7 @@ body {
 
 .plus-cion img {
   position: relative;
-  left: 360px;
+  left: 320px;
   top: -10px;
   z-index: 5;
   background-color: #ffffff;
@@ -526,4 +526,117 @@ body {
   font-size: 44px;
   line-height: 100%;
   margin-top: 50px;
+}
+
+.inform-one {
+  margin-left: 20px;
+}
+.ussu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.all-paragf span {
+  color: #03081f;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.all-paragf {
+  margin-top: 12px;
+}
+
+.all-paragf p {
+  margin-top: 12px;
+}
+
+.work-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: #ffffff;
+  box-shadow:
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* padding: 0px 12px; */
+  border-radius: 12px;
+}
+
+.opera h2 {
+  color: #ffffff;
+}
+
+.iform-foo {
+  background-color: #03081f;
+  max-width: 450px;
+  padding: 34px;
+}
+
+.two-paragf p {
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.maps iframe {
+  border-radius: 12px;
+  margin-top: 80px;
+}
+
+.maps-card {
+  background-color: #03081f;
+  max-width: 486px;
+  border-radius: 12px;
+  padding: 24px 34px;
+  margin-top: -380px;
+  position: relative;
+  z-index: 10;
+}
+
+.maps-card h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  max-width: 150px;
+  margin-top: 8px;
+  /* margin-left: 50px; */
+}
+
+.maps-card p {
+  color: #cecdcd;
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 400px;
+  /* margin-left: 50px; */
+}
+
+.maps-card span {
+  color: #fc8a06;
+}
+
+.simller {
+  margin-top: 130px;
+}
+.smiler-imgs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 42px;
+}
+.smiler-imgs img:hover {
+  transform: scale(1.04);
+  transition: all 1s linear;
+}
+
+.smiler-imgs img {
+  max-width: 210px;
+  transition: all 1s linear;
+}
+.suptitle h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
 }
