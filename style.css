@@ -152,6 +152,13 @@
 body {
   font-family: "Poppins";
 }
+
+footer {
+  background-color: #d9d9d9;
+  padding: 20px;
+  margin-top: 50px;
+}
+
 .container {
   width: 100%;
   max-width: 1530px;
@@ -485,7 +492,7 @@ body {
 
 .plus-cion img {
   position: relative;
-  left: 320px;
+  left: 360px;
   top: -10px;
   z-index: 5;
   background-color: #ffffff;
@@ -622,7 +629,7 @@ body {
 .smiler-imgs {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 40px;
   margin-top: 42px;
 }
 .smiler-imgs img:hover {
@@ -639,4 +646,113 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.all-footer {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin-top: 18px;
+}
+
+.logo-icons p {
+  margin-top: 22px;
+  max-width: 350px;
+}
+
+.input-footer h2 {
+  color: #03081f;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: -18px;
+  /* line-height: 43px; */
+}
+
+.input-footer input {
+  padding: 10px;
+  padding-right: 80px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ebe6e6;
+  color: black;
+  margin-top: 22px;
+}
+
+.input-footer button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #fc8a06;
+  color: white;
+  margin-left: -84px;
+}
+
+.input-footer p {
+  color: #03081f;
+  font-weight: 400;
+  font-size: 13px;
+  /* line-height: 43px; */
+  margin-top: 14px;
+}
+
+.foter-icons {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-texts h2 {
+  color: #03081f;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 43px;
+}
+
+.footer-texts p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 43px;
+}
+
+.all-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  background-color: #03081f;
+  color: #ffffff;
+  padding: 22px;
+  border-radius: 14px;
+  width: 100%;
+}
+
+.ps-foter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-end h2 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.ps-foter p {
+  font-weight: 400;
+  font-size: 15px;
 }
